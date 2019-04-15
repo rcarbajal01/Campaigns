@@ -107,6 +107,10 @@ namespace WebData
             plan = (string)data.Rows[0]["plan_vendido"];
             switch (plan)
             {
+                case "KE":
+                    lblPlan.Text = "Plan Movistar 3";
+                    lblPrecio.Text = "219";
+                    break;
                 case "KEM":
                     lblPlan.Text = "Vas a Volar 0.3 Canal";
                     lblPrecio.Text = "149";                    

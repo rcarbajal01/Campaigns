@@ -56,6 +56,7 @@
                                             <option value='Problema de marcacion'>Problema de marcacion</option>                                            
                                             <option value='No contesta'>No contesta</option>
                                             <option value='Tono de ocupado'>Tono de ocupado</option>
+                                            <option value='Buzon/Tono'>Buzon/Tono</option>
                                         </select><asp:HiddenField runat="server" ID="hdf_reasonq1" />
                                     </div>    
                                 </div>
@@ -174,7 +175,17 @@
                                     </div>
                                     <div id="noPago" style="display:none;">
                                         <span style="FONT-FAMILY:MovistarTextRegular;FONT-SIZE:11pt"><br></span><span style="FONT-FAMILY:MovistarTextRegular">
-                                            <textarea maxlength="150" cols="400" rows="5" id="ddlMotivoAdeudo" name="ddlMotivoAdeudo" class="form-control" placeholder="Capture motivo" required style="width:600px" autofocus ></textarea></span><asp:HiddenField runat="server" ID="hdf_ddlMotivoAdeudo" /> 
+                                            <select name="ddlMotivoAdeudo" id="ddlMotivoAdeudo" class='form-control' required>
+	                                                <option selected="selected" value=''>[Motivos de no aceptacion]</option>
+	                                                <option value="Extravie numeros de referencia">Extravie numeros de referencia</option>
+	                                                <option value="Lugares de pago lejanos">Lugares de pago lejanos</option>
+	                                                <option value="No tengo dinero">No tengo dinero</option>
+	                                                <option value="No tengo tiempo">No tengo tiempo</option>
+	                                                <option value="Olvide la fecha limite de pago">Olvide la fecha limite de pago</option>
+	                                                <option value="Problemas de uso de datos moviles">Problemas de uso de datos moviles</option>
+                                                    <option value="Problemas personales">Problemas personales</option>                                                    
+                                                </select></span>
+                                            <asp:HiddenField runat="server" ID="hdf_ddlMotivoAdeudo" /> 
                                         <p style="MARGIN-LEFT:0.5in"><b><span style="FONT-FAMILY:MovistarTextRegular;FONT-SIZE:11pt"> </span></b></p>
                                         <p><span style="FONT-FAMILY:MovistarTextRegular;FONT-SIZE:11pt"> </span></p>
                                         <p><span style="FONT-FAMILY:MovistarTextRegular;FONT-SIZE:11pt">Cuando<span>  </span>podremos<span>  </span>contar con su pago (Que<b> no exceda<span>  </span>el lapso de 3 

@@ -69,6 +69,9 @@ namespace WebData
                         newuser2.Visible = true;
                         switch ((string)data.Rows[0]["plan_vendido"])
                         {
+                            case "KE":
+                                lblPlan.Text = "Plan Movistar 3";
+                                break;
                             case "KEM":
                                 lblPlan.Text = "Vas a Volar 0.3 Canal";
                                 break;

@@ -656,15 +656,20 @@
                                                         <div id="erroSarDiv" style="display:none;">                                                            
                                                             <label>
                                                                 Error en SAR: <br /><br />
-                                                                Le confirmo que su Vas a Volar 0.5 Canal ha sido activado exitosamente y se verá reflejado dentro de las 48 hrs. <br />
+                                                                Le confirmo que su plan Plan Movistar 3 ha sido activado exitosamente y se verá reflejado dentro de las 48 hrs. <br />
                                                             </label><br />     
                                                             <label class="alert-info">BIENVENIDA: </label>   <br /><br />
                                                             <label>
                                                                 <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br />
 
                                                                 •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
-                                                                •	2 GB para navegar en internet y 2GB para utilizar Redes Sociales como lo son Facebook. Twiter y WhatsApp.<br />
-                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br /><br />
+                                                                •	4 GB para navegar en internet.<br />
+                                                                •	2 GB para Netflix.<br />
+                                                                •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
+                                                                •	Movistar PLAY incluido (se cobran de los 4GB)<br />
+                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
+                                                                •	Tarifa Excedente de $0.70<br />
+                                                                <br />
 
                                                                 Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
                                                                 En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
@@ -679,15 +684,20 @@
                                                         <div id="correctoSarDiv" style="display:none;">                                                            
                                                             <label>
                                                                 Activación Exitosa: <br /><br />
-                                                                Le confirmo que su plan Vas a Volar 0.5 Canal ha sido activado exitosamente a partir de este momento. Le pedimos que en un lapso de 3 horas apague/prenda su celular para que comience a gozar de sus beneficios. <br />
+                                                                Le confirmo que su plan Movistar 3 ha sido activado exitosamente a partir de este momento. Le pedimos que en un lapso de 3 horas apague/prenda su celular para que comience a gozar de sus beneficios. <br />
                                                             </label><br />     
                                                             <label class="alert-info">BIENVENIDA: </label>   <br /><br />
                                                             <label>
                                                                 <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br /><br />
 
                                                                 •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
-                                                                •	2 GB para navegar en internet y 2GB para utilizar Redes Sociales como lo son Facebook. Twiter y WhatsApp.<br />
-                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br /><br />
+                                                                •	4 GB para navegar en internet.<br />
+                                                                •	2 GB para Netflix.<br />
+                                                                •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
+                                                                •	Movistar PLAY incluido (se cobran de los 4GB)<br />
+                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
+                                                                •	Tarifa Excedente de $0.70<br />
+                                                                <br />
 
                                                                 Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
                                                                 En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />

@@ -148,6 +148,16 @@
                                                 <br />                                  
                                             </div>
                                             <font color="#4c71a6" size="4">Le recuerdo los principales beneficios con los que cuenta su plan: <br /></font>
+                                            <div id="planKEDiv" style="display:none;"><ul><li>
+                                                Llamadas y SMS ilimitados para que hable sin restricciones a cualquier numero fijo o movil estando en Mexico, EUA, Canada y Puerto Rico, sin importar de que compañia sea.</li>
+                                                <li>4 GB para navegar en internet.</li>
+                                                <li>2 GB para Netflix.</li>
+                                                <li>Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.</li>
+                                                <li>Movistar PLAY incluido (se cobran de los 4GB)</li>
+                                                <li>Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico</li>
+                                                <li>Tarifa Excedente de $0.70</li>
+                                                </ul>
+                                            </div>
                                             <div id="planKEMDiv" style="display:none;"><ul><li>
                                                 Llamadas y SMS ilimitados para que hable sin restricciones a cualquier numero fijo o movil estando en Mexico, EUA, Canada y Puerto Rico, sin importar de que compañia sea.</li>
                                                 <li>1 GB para navegar en internet y 2GB para utilizar Redes Sociales como lo son Facebook. Twiter y WhatsApp.</li>
@@ -398,29 +408,40 @@
                 document.getElementById("reasonq1div").style = "display:none;";
                 switch(document.getElementById('<%= hdf_plan.ClientID %>').value)
                 {
+                    case "KE":
+                        document.getElementById("planKEDiv").style = "display:block;";
+                        document.getElementById("planKEMDiv").style = "display:none;";
+                        document.getElementById("planKELDiv").style = "display:none;";
+                        document.getElementById("planKEFDiv").style = "display:none;";
+                        document.getElementById("planKEGDiv").style = "display:none;";
+                        break;
                     case "KEM":
                         document.getElementById("planKEMDiv").style = "display:block;";
                         document.getElementById("planKELDiv").style = "display:none;";
                         document.getElementById("planKEFDiv").style = "display:none;";
                         document.getElementById("planKEGDiv").style = "display:none;";
+                        document.getElementById("planKEDiv").style = "display:none;";
                         break;
                     case "KEL":
                         document.getElementById("planKEMDiv").style = "display:none;";
                         document.getElementById("planKELDiv").style = "display:block;";
                         document.getElementById("planKEFDiv").style = "display:none;";
                         document.getElementById("planKEGDiv").style = "display:none;";
+                        document.getElementById("planKEDiv").style = "display:none;";
                         break;
                     case "KEF":
                         document.getElementById("planKEMDiv").style = "display:none;";
                         document.getElementById("planKELDiv").style = "display:none;";
                         document.getElementById("planKEFDiv").style = "display:block;";
                         document.getElementById("planKEGDiv").style = "display:none;";
+                        document.getElementById("planKEDiv").style = "display:none;";
                         break;
                     case "KEG":
                         document.getElementById("planKEMDiv").style = "display:none;";
                         document.getElementById("planKELDiv").style = "display:none;";
                         document.getElementById("planKEFDiv").style = "display:none;";
                         document.getElementById("planKEGDiv").style = "display:block;";
+                        document.getElementById("planKEDiv").style = "display:none;";
                         break;
                 }
             }

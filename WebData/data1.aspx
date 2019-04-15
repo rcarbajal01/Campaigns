@@ -96,12 +96,129 @@
                                     <div id="planDiv" style="display:none;">
                                         <br /><label>Lista de planes disponibles</label><br />
                                         <select id='planSelect' name='planSelect' class='form-control' onchange="javascript: planselectFunction()">
-                                        <option value='KEM'>Vas a Volar 0.3 Canal</option>
+                                        <%--<option value='KEM'>Vas a Volar 0.3 Canal</option>
                                         <option value='KEL'>Vas a Volar 0.5 Canal</option>
                                         <option value='KEF'>Vas a Volar 1 Canal</option>
-                                        <option value='KEG'>Vas a Volar 1.5 Canal</option>
+                                        <option value='KEG'>Vas a Volar 1.5 Canal</option>--%>
+                                        <option value='KE' selected="selected">Plan Movistar 3</option>
                                     </select><asp:HiddenField runat="server" ID="hdf_planSelect" /><br />
-                                        <div id="planKEMDiv" style="display:block;">
+                                        <div id="planKEDiv" style="display:block;">
+                                            <br>
+                                            <table >
+                                                <tbody><tr>
+                                                    <td style="text-align: justify">
+                                                        <font color="#4C71A6" size="2"><b>Oferta y Beneficios</b></font>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                            <table >
+                                                <tbody><tr>
+                                                    <td align="left" style="text-align: justify"><font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        Movistar tiene el nuevo plan
+                                                        <span id="lblPlan" style="color:Green;">Plan Movistar 3</span>
+                                                        y como brevemente le comente le ofrece:
+                                                    </b></font>
+
+                                                        
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                            <table >
+                                                <tbody><tr>
+                                                    <td align="left">
+                                                        <span id="lblScript1"><font color="#777777" size="2"><b><ul><li>
+                                                            Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.</li>
+                                                            <li>4 GB para navegar en internet.</li>
+                                                            <li>2 GB para Netflix.</li>
+                                                            <li>Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.</li>
+                                                            <li>Movistar PLAY incluido (se cobran de los 4GB)</li>
+                                                            <li>Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico</li>
+                                                            <li>Tarifa Excedente de $0.70</li>
+                                                            </ul>                                                            
+                                                            Este Plan tiene una Renta mensual de $219 que deberan ser cubiertos antes de la fecha limite de pago que se mencione en su factura para seguir contando con sus beneficios.
+                                                            <br>
+                                                            <br>
+                                                            Ahora, si lo que a usted le interesa es tener su plan con un Smartphone, lo unico que debe hacer es: 
+                                                            <br>
+                                                            <br>
+                                                            a) Acudir a cualquiera de nuestros Centros de Atencion
+                                                            <br>
+                                                            b) Presentar su TDC o bien pagar en efectivo un deposito que ahi mismo le indicaran el monto.
+                                                            <br>
+                                                            c) Y solicitar cualquiera de los equipos que tenemos disponibles en este plan, usted podra escoger entre otros equipos de las mejores marcas como:
+                                                            <br>
+                                                            <ul>
+                                                            <li>Samsung</li>
+                                                            <li>Sony</li>
+                                                            <li>Motorola</li>
+                                                            <li>E incluso cambiando a un plan de renta mayor, podria obtener hasta un iPhone</li>
+                                                            </ul>
+                                                            </b></font></span>
+                                                    </td>
+                                                </tr>
+                                                <%--<tr>
+                                                    <td align="left" style="text-align: justify">
+                                                        <font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Comparativa de
+                                                            minutos vs Prepago:</b></font>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="text-align: justify">
+                                                        <br>
+                                                        
+                                                        
+                                                        <img id="ImgOferta" src="Content/img/PLAN_03.png" style="border-width:0px;">
+                                                        <br>
+                                                    </td>
+                                                </tr>--%>
+                                                <tr>
+                                                    <td align="left" style="text-align: justify">
+                                                        <font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este plan es
+                                                            una de las mejores ofertas vigentes dentro del mercado, ya que es un plan a cero
+                                                            meses por lo que usted decide la permanencia del mismo.</b></font>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="text-align: justify">
+                                                        <font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; La oferta que
+                                                            le brindamos es un plan control, por lo que no le generara cargos adicionales a la
+                                                            factura que siempre sera por el mismo monto.</b></font>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="text-align: justify">
+                                                        <font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                                            Todos estos beneficios por una renta mensual
+                                                            de
+                                                            <span id="lblCostoPlan" style="color:Green;">219</span>;
+                                                            el pago del plan es muy sencillo, ya que lo puede realizar en efectivo en cualquiera
+                                                            de los centros autorizados como: (Mencionar 5 centros autorizados al cliente) 
+                                                            <a href="#" onclick="window.open('http://intranetclientes.movistar.com.mx/icl/public/page.jsp?url=general/detalle_general.jsp&amp;action=edit&amp;cveGeneral=22&amp;cvep=0','mywindow');">
+                                                                <span id="Label5" style="color:Green;">(Ver medios de pago en Intranet)</span></a>
+                                                            o para mayor comodidad con cargo a su tarjeta de debito
+                                                            o credito.
+                                                        </b></font>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                            <table >
+                                                <tbody><tr>
+                                                    <td align="left" style="text-align: justify">
+                                                        <font color="#777777" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                                            El pago sera en una sola exhibicion, las recargas no aplicarian como medio de pago,
+                                                            usted recibira sus beneficios los dias
+                                                            <span id="lblFechaAsignacion2" style="color:Green;">24</span>
+                                                            de cada mes y como fecha limite de pago
+                                                            sera
+                                                            <span id="lbl_fecha_limite" style="color:Green;">15</span>
+                                                            de cada mes.
+                                                        </b></font>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table><br />
+                                        </div>
+                                        <div id="planKEMDiv" style="display:none;">
                                             <br>
                                             <table >
                                                 <tbody><tr>
@@ -737,6 +854,11 @@
 	                                                <option value="Desconfia de la llamada">Desconfia de la llamada</option>
 	                                                <option value="No tengo ese consumo promedio">No tengo ese consumo promedio</option>
 	                                                <option value="Utiliza otra linea">Utiliza otra linea</option>
+                                                    <option value="Lugares de pago lejanos">Lugares de pago lejanos</option>
+                                                    <option value="No tengo dinero">No tengo dinero</option>
+                                                    <option value="No tiene trabajo">No tiene trabajo</option>
+                                                    <option value="No utiliza megas ni redes sociales">No utiliza megas ni redes sociales</option>
+                                                    <option value="Problemas de cobertura">Problemas de cobertura</option>
                                                 </select><asp:HiddenField runat="server" ID="hdf_ddl_Motivos" /><br />
 
                                                 <select name="ddl_SubMotivos" id="ddl_SubMotivos" class='form-control'>
@@ -1449,11 +1571,20 @@
             document.getElementById("planLbl2").innerHTML = plan.options[plan.selectedIndex].text;
             switch (x)
             {
+                case "KE":
+                    document.getElementById("planKEHDiv").style = "display:block;";
+                    document.getElementById("planKEMDiv").style = "display:none;";
+                    document.getElementById("planKELDiv").style = "display:none;";
+                    document.getElementById("planKEFDiv").style = "display:none;";
+                    document.getElementById("planKEGDiv").style = "display:none;";
+                    lbl_renta_ini2.innerHTML = "219";
+                    break;
                 case "KEM":
                     document.getElementById("planKEMDiv").style = "display:block;";
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
+                    document.getElementById("planKEHDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "149";
                     break;
                 case "KEL":
@@ -1461,6 +1592,7 @@
                     document.getElementById("planKELDiv").style = "display:block;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
+                    document.getElementById("planKEHDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "219";
                     break;
                 case "KEF":
@@ -1468,6 +1600,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:block;";
                     document.getElementById("planKEGDiv").style = "display:none;";
+                    document.getElementById("planKEHDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "349";
                     break;
                 case "KEG":
@@ -1475,6 +1608,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:block;";
+                    document.getElementById("planKEHDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "449";
                     break;
                 default:
@@ -1482,6 +1616,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
+                    document.getElementById("planKEHDiv").style = "display:none;";
                     break;
             }
         }
