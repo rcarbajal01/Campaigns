@@ -238,6 +238,18 @@
                                                 <input type="radio" name="domiciliarApprove" id="domiciliarApprove" value="Acepta Domiciliar" onclick="javascript: domiciliarApprovefunction(this.value)" /> Acepta Domiciliar<br>
                                                 <input type="radio" name="domiciliarApprove" id="domiciliarApprove" value="No Acepta Domiciliar" onclick="javascript: domiciliarApprovefunction(this.value)" /> No Acepta Domiciliar<br />
                                                 <br /><asp:HiddenField runat="server" ID="hdf_domiciliarApprove" /> 
+                                                Con base en una escala de 0 a 10 donde 0 es la calificacion mas baja y 10 es la calificacion mas alta, ¿Que tan probable es que usted recomiende los servicios de Movistar a sus familiares y amigos?<br />
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="1" onclick="javascript: recomendarfunction(this.value)" /> 1
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="2" onclick="javascript: recomendarfunction(this.value)" /> 2
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="3" onclick="javascript: recomendarfunction(this.value)" /> 3
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="4" onclick="javascript: recomendarfunction(this.value)" /> 4
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="5" onclick="javascript: recomendarfunction(this.value)" /> 5
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="6" onclick="javascript: recomendarfunction(this.value)" /> 6
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="7" onclick="javascript: recomendarfunction(this.value)" /> 7
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="8" onclick="javascript: recomendarfunction(this.value)" /> 8
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="9" onclick="javascript: recomendarfunction(this.value)" /> 9
+                                                <input type="radio" name="recomendar1" id="recomendar1" value="10" onclick="javascript: recomendarfunction(this.value)" /> 10
+                                                <br /><asp:HiddenField runat="server" ID="hdf_Recomendar" />
                                                 <label class="alert-success">
                                                     Sr. / Srita. () agradecemos su tiempo y preferencia con Movistar, estamos a sus ordenes las 24 hrs. los 365 días del año marcando *611, Que tenga excelente día / tarde / noche. Hasta luego. 
                                                 <br /></label>
@@ -491,6 +503,10 @@
             document.getElementById("validForm").innerHTML = "";
             document.getElementById('<%= hdf_domiciliarApprove.ClientID %>').value = answer;
         } 
+        function recomendarfunction(answer) {
+            document.getElementById("validForm").innerHTML = "";
+            document.getElementById('<%= hdf_Recomendar.ClientID %>').value = answer;
+        }
 
         function electronicoApprovefunction(answer) {
             document.getElementById("validForm").innerHTML = "";

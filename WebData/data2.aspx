@@ -653,56 +653,96 @@
                                                                 <asp:HiddenField runat="server" ID="hdf_tipoActivacion" />
                                                             </tr>
                                                         </table><br />
-                                                        <div id="erroSarDiv" style="display:none;">                                                            
-                                                            <label>
-                                                                Error en SAR: <br /><br />
-                                                                Le confirmo que su plan Plan Movistar 3 ha sido activado exitosamente y se verá reflejado dentro de las 48 hrs. <br />
-                                                            </label><br />     
-                                                            <label class="alert-info">BIENVENIDA: </label>   <br /><br />
-                                                            <label>
-                                                                <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br />
+                                                        <div id="erroSarDiv" style="display:none;">
+                                                            <div id="erroSarDivPlan3" style="display:none;">
+                                                                <label>
+                                                                    Error en SAR: <br /><br />
+                                                                    Le confirmo que su plan Plan Movistar 3 ha sido activado exitosamente y se verá reflejado dentro de las 48 hrs. <br />
+                                                                </label><br />     
+                                                                <label class="alert-info">BIENVENIDA: </label>   <br /><br />
+                                                                <label>
+                                                                    <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br />
 
-                                                                •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
-                                                                •	4 GB para navegar en internet.<br />
-                                                                •	2 GB para Netflix.<br />
-                                                                •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
-                                                                •	Movistar PLAY incluido (se cobran de los 4GB)<br />
-                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
-                                                                •	Tarifa Excedente de $0.70<br />
-                                                                <br />
+                                                                    •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
+                                                                    •	4 GB para navegar en internet.<br />
+                                                                    •	2 GB para Netflix.<br />
+                                                                    •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
+                                                                    •	Movistar PLAY incluido (se cobran de los 4GB)<br />
+                                                                    •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
+                                                                    •	Tarifa Excedente de $0.70<br />
+                                                                    <br />
 
-                                                                Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
-                                                                En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
-                                                                Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
-                                                            </label><br />                                 
+                                                                    Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
+                                                                    En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
+                                                                    Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
+                                                                </label><br />     
+                                                            </div>
+                                                            <div id="erroSarDivPlan5" style="display:none;">
+                                                                <label>
+	                                                                Error en SAR: <br /><br />
+	                                                                Le confirmo que su Vas a Volar 0.5 Canal ha sido activado exitosamente y se verá reflejado dentro de las 48 hrs. <br />
+                                                                </label><br />     
+                                                                <label class="alert-info">BIENVENIDA: </label>   <br /><br />
+                                                                <label>
+	                                                                <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br />
+
+	                                                                •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
+	                                                                •	2 GB para navegar en internet y 2GB para utilizar Redes Sociales como lo son Facebook. Twiter y WhatsApp.<br />
+	                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br /><br />
+
+	                                                                Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
+	                                                                En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
+	                                                                Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
+                                                                </label><br />
+                                                            </div>
                                                             <label class="alert-info">BIENVENIDA: </label>   <br /><br />                                                                     
                                                              <select id='acceptMigration' name='acceptMigration' class='form-control' required>
                                                                 <option value=''>Selecciona</option>
                                                                 <option value='Activación con error en SAR SIGA /Seguimiento Citrix'>Activación con error en SAR SIGA /Seguimiento Citrix</option>    
                                                              </select>                                                                
-                                                        </div>   
+                                                            </div>                                                            
                                                         <div id="correctoSarDiv" style="display:none;">                                                            
-                                                            <label>
-                                                                Activación Exitosa: <br /><br />
-                                                                Le confirmo que su plan Movistar 3 ha sido activado exitosamente a partir de este momento. Le pedimos que en un lapso de 3 horas apague/prenda su celular para que comience a gozar de sus beneficios. <br />
-                                                            </label><br />     
-                                                            <label class="alert-info">BIENVENIDA: </label>   <br /><br />
-                                                            <label>
-                                                                <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br /><br />
+                                                            <div id="correctoSarDivPlan3" style="display:none;">
+                                                                <label>
+                                                                    Activación Exitosa: <br /><br />
+                                                                    Le confirmo que su plan Movistar 3 ha sido activado exitosamente a partir de este momento. Le pedimos que en un lapso de 3 horas apague/prenda su celular para que comience a gozar de sus beneficios. <br />
+                                                                </label><br />     
+                                                                <label class="alert-info">BIENVENIDA: </label>   <br /><br />
+                                                                <label>
+                                                                    <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br /><br />
 
-                                                                •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
-                                                                •	4 GB para navegar en internet.<br />
-                                                                •	2 GB para Netflix.<br />
-                                                                •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
-                                                                •	Movistar PLAY incluido (se cobran de los 4GB)<br />
-                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
-                                                                •	Tarifa Excedente de $0.70<br />
-                                                                <br />
+                                                                    •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
+                                                                    •	4 GB para navegar en internet.<br />
+                                                                    •	2 GB para Netflix.<br />
+                                                                    •	Redes Sociales ilimitadas como lo son Facebook. Twiter, WhatsApp, Instagram, Snapchat y Uber.<br />
+                                                                    •	Movistar PLAY incluido (se cobran de los 4GB)<br />
+                                                                    •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br />
+                                                                    •	Tarifa Excedente de $0.70<br />
+                                                                    <br />
 
-                                                                Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
-                                                                En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
-                                                                Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
-                                                            </label><br />                                 
+                                                                    Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
+                                                                    En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
+                                                                    Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
+                                                                </label><br /> 
+                                                            </div>
+                                                            <div id="correctoSarDivPlan5" style="display:none;">
+                                                                <label>
+	                                                                Activación Exitosa: <br /><br />
+	                                                                Le confirmo que su plan Vas a Volar 0.5 Canal ha sido activado exitosamente a partir de este momento. Le pedimos que en un lapso de 3 horas apague/prenda su celular para que comience a gozar de sus beneficios. <br />
+                                                                </label><br />     
+                                                                <label class="alert-info">BIENVENIDA: </label>   <br /><br />
+                                                                <label>
+	                                                                <label class="alert-info">Le recuerdo los principales beneficios con los que cuenta su plan:</label> <br /><br />
+
+	                                                                •	Llamadas y SMS ilimitados para que hable sin restricciones a cualquier número fijo o móvil estando en México, EUA, Canadá y Puerto Rico, sin importar de que compañía sea.<br />
+	                                                                •	2 GB para navegar en internet y 2GB para utilizar Redes Sociales como lo son Facebook. Twiter y WhatsApp.<br />
+	                                                                •	Además puede utilizar todos estos beneficios estando en México, EUA, Canadá y Puerto Rico.<br /><br />
+
+	                                                                Solo por esta ocasión se le otorgaran sus beneficios el día de hoy y a partir del siguiente mes los días xxx de cada mes recibirá sus bolsas de minutos, sms y MB. <br /><br />
+	                                                                En caso de consumir su bolsa podrá realizar recargas para continuar realizando llamadas, sms o navegar en Internet. <br /><br />
+	                                                                Es importante recordarle que las recargas no pagan la renta del plan. Solamente mediante un pago bancario, con cargo a TDC o Debito o en alguno de los centros autorizados <a href="http://intranetclientes.movistar.com.mx/icl/login.html"></a> se podrá realizar el pago. <br /><br />
+                                                                </label><br />
+                                                            </div>
                                                             <label class="alert-info">BIENVENIDA: </label>   <br /><br />                                                                     
                                                              <select id='acceptMigration2' name='acceptMigration2' class='form-control' required>
                                                                 <option value=''>Selecciona</option>
@@ -983,10 +1023,36 @@
             if (answer == "Exitosa por SAR") {
                 document.getElementById("erroSarDiv").style = "display:none;";
                 document.getElementById("correctoSarDiv").style = "display:block;";
+                if (document.getElementById('<%= lblPlan.ClientID %>').innerText == "Plan Movistar 3") {
+                    document.getElementById("correctoSarDivPlan3").style = "display:block;";
+                    document.getElementById("correctoSarDivPlan5").style = "display:none;";
+                }
+                else if (document.getElementById('<%= lblPlan.ClientID %>').innerText == "Vas a Volar 0.5 Canal") {
+                    document.getElementById("correctoSarDivPlan3").style = "display:none;";
+                    document.getElementById("correctoSarDivPlan5").style = "display:block;";
+                }
+                else
+                {
+                    document.getElementById("correctoSarDivPlan3").style = "display:none;";
+                    document.getElementById("correctoSarDivPlan5").style = "display:none;";
+                }
             }
             else {
                 document.getElementById("erroSarDiv").style = "display:block;";
                 document.getElementById("correctoSarDiv").style = "display:none;";
+                if (document.getElementById('<%= lblPlan.ClientID %>').innerText == "Plan Movistar 3") {
+                    document.getElementById("erroSarDivPlan3").style = "display:block;";
+                    document.getElementById("erroSarDivPlan5").style = "display:none;";
+                }
+                else if (document.getElementById('<%= lblPlan.ClientID %>').innerText == "Vas a Volar 0.5 Canal") {
+                    document.getElementById("erroSarDivPlan3").style = "display:none;";
+                    document.getElementById("erroSarDivPlan5").style = "display:block;";
+                }
+                else
+                {
+                    document.getElementById("erroSarDivPlan3").style = "display:none;";
+                    document.getElementById("erroSarDivPlan5").style = "display:none;";
+                }
             }
         }
 

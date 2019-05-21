@@ -272,7 +272,16 @@ namespace WebData {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdf_acceptMigration;
-        
+
+        /// <summary>
+        /// hdf_Recomendar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdf_Recomendar;
+
         /// <summary>
         /// newuser2 control.
         /// </summary>

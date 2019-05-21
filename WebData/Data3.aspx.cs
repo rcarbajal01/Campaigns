@@ -169,6 +169,7 @@ namespace WebData
             primerFactura.OtroLugarPago = hdf_myPago.Value;
             primerFactura.EnvioReferenciaBancaria = hdf_referenciaApprove.Value;
             primerFactura.DomiciliaTDC = hdf_domiciliarApprove.Value;
+            primerFactura.Recomienda = hdf_Recomendar.Value;
             statusDn = "Cobranza";
             return primerFactura;
         }

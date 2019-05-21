@@ -42,6 +42,8 @@ namespace Business
         public string CorreoCliente { get; set; }
         public string DomiciliaTDC { get; set; }
 
+        public string Recomienda { get; set; }
+
         public PrimerFactura()
         {
             preg_1 = "";
@@ -77,6 +79,7 @@ namespace Business
             EnvioReferenciaBancaria = "";
             CorreoCliente = "";
             DomiciliaTDC = "";
+            Recomienda = "";
         }
     }
 }

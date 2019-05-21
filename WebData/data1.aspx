@@ -96,12 +96,12 @@
                                     <div id="planDiv" style="display:none;">
                                         <br /><label>Lista de planes disponibles</label><br />
                                         <select id='planSelect' name='planSelect' class='form-control' onchange="javascript: planselectFunction()">
-                                        <%--<option value='KEM'>Vas a Volar 0.3 Canal</option>
-                                        <option value='KEL'>Vas a Volar 0.5 Canal</option>
-                                        <option value='KEF'>Vas a Volar 1 Canal</option>
-                                        <option value='KEG'>Vas a Volar 1.5 Canal</option>--%>
-                                        <option value='KE' selected="selected">Plan Movistar 3</option>
-                                    </select><asp:HiddenField runat="server" ID="hdf_planSelect" /><br />
+                                            <option value='KE'>Plan Movistar 3</option>
+                                            <%--<option value='KEM'>Vas a Volar 0.3 Canal</option>--%>
+                                            <option value='KEL'>Vas a Volar 0.5 Canal</option>
+                                            <%--<option value='KEF'>Vas a Volar 1 Canal</option>
+                                            <option value='KEG'>Vas a Volar 1.5 Canal</option>--%>                                        
+                                        </select><asp:HiddenField runat="server" ID="hdf_planSelect" /><br />
                                         <div id="planKEDiv" style="display:block;">
                                             <br>
                                             <table >
@@ -1572,7 +1572,7 @@
             switch (x)
             {
                 case "KE":
-                    document.getElementById("planKEHDiv").style = "display:block;";
+                    document.getElementById("planKEDiv").style = "display:block;";
                     document.getElementById("planKEMDiv").style = "display:none;";
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
@@ -1584,7 +1584,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
-                    document.getElementById("planKEHDiv").style = "display:none;";
+                    document.getElementById("planKEDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "149";
                     break;
                 case "KEL":
@@ -1592,7 +1592,7 @@
                     document.getElementById("planKELDiv").style = "display:block;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
-                    document.getElementById("planKEHDiv").style = "display:none;";
+                    document.getElementById("planKEDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "219";
                     break;
                 case "KEF":
@@ -1600,7 +1600,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:block;";
                     document.getElementById("planKEGDiv").style = "display:none;";
-                    document.getElementById("planKEHDiv").style = "display:none;";
+                    document.getElementById("planKEDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "349";
                     break;
                 case "KEG":
@@ -1608,7 +1608,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:block;";
-                    document.getElementById("planKEHDiv").style = "display:none;";
+                    document.getElementById("planKEDiv").style = "display:none;";
                     lbl_renta_ini2.innerHTML = "449";
                     break;
                 default:
@@ -1616,7 +1616,7 @@
                     document.getElementById("planKELDiv").style = "display:none;";
                     document.getElementById("planKEFDiv").style = "display:none;";
                     document.getElementById("planKEGDiv").style = "display:none;";
-                    document.getElementById("planKEHDiv").style = "display:none;";
+                    document.getElementById("planKEDiv").style = "display:none;";
                     break;
             }
         }
