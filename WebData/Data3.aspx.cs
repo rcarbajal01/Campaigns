@@ -20,7 +20,7 @@ namespace WebData
 
                 Response.Redirect("login.aspx");
             }
-            IdEjecutivo.InnerHtml = "ID EJECUTIVO: " + Session["mysession"].ToString();
+            IdEjecutivo.InnerHtml = "ID EJECUTIVO: " + Session["mysession"].ToString();                
         }
 
         protected void submitRecord(object sender, EventArgs e)
@@ -170,6 +170,8 @@ namespace WebData
             primerFactura.EnvioReferenciaBancaria = hdf_referenciaApprove.Value;
             primerFactura.DomiciliaTDC = hdf_domiciliarApprove.Value;
             primerFactura.Recomienda = hdf_Recomendar.Value;
+            primerFactura.Comentario = txtRecomeindaComentario.Text;
+            txtRecomeindaComentario.Text = "";
             statusDn = "Cobranza";
             return primerFactura;
         }

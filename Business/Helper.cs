@@ -1032,6 +1032,7 @@ namespace Business
                   ",[CorreoCliente]"+
                   ",[DomiciliaTDC]"+
                   ",[Recomienda]" +
+                  ",[Comentario]" +
                   "FROM [dbo].[PrimerFactura]" +
                     "WHERE CAST(Fecha_Encuesta AS DATE) >= '" + p1 + "' and CAST(Fecha_Encuesta AS DATE) <= '" + p2 + "'", conn);
 
@@ -1204,6 +1205,7 @@ namespace Business
             parameters.Add(new Parametro("CorreoCliente", primerFactura.CorreoCliente));
             parameters.Add(new Parametro("DomiciliaTDC", primerFactura.DomiciliaTDC));
             parameters.Add(new Parametro("Recomienda", primerFactura.Recomienda));
+            parameters.Add(new Parametro("Comentario", primerFactura.Comentario));
 
 
             Connection.Run("sp_insert_primerFactura", parameters, ReturnDataType.Nothing);
@@ -1247,6 +1249,7 @@ namespace Business
             parameters.Add(new Parametro("CorreoCliente", primerFactura.CorreoCliente));
             parameters.Add(new Parametro("DomiciliaTDC", primerFactura.DomiciliaTDC));
             parameters.Add(new Parametro("Recomienda", primerFactura.Recomienda));
+            parameters.Add(new Parametro("Comentario", primerFactura.Comentario));
 
             Connection.Run("sp_update_primerFactura", parameters, ReturnDataType.Nothing);
         }

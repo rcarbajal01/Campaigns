@@ -48,6 +48,7 @@ namespace WebData
                 string text = sb.ToString();
                 Response.Clear();
                 Response.ClearHeaders();
+                Response.Write('\uFEFF');
 
                 Response.AddHeader("Content-Length", text.Length.ToString());
                 Response.ContentType = "text/plain";

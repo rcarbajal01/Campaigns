@@ -250,6 +250,7 @@
                                                 <input type="radio" name="recomendar1" id="recomendar1" value="9" onclick="javascript: recomendarfunction(this.value)" /> 9
                                                 <input type="radio" name="recomendar1" id="recomendar1" value="10" onclick="javascript: recomendarfunction(this.value)" /> 10
                                                 <br /><asp:HiddenField runat="server" ID="hdf_Recomendar" />
+                                                <asp:TextBox ID="txtRecomeindaComentario" runat="server" placeholder="Comentario" Width="800px"></asp:TextBox>
                                                 <label class="alert-success">
                                                     Sr. / Srita. () agradecemos su tiempo y preferencia con Movistar, estamos a sus ordenes las 24 hrs. los 365 días del año marcando *611, Que tenga excelente día / tarde / noche. Hasta luego. 
                                                 <br /></label>
